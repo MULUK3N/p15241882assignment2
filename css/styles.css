@@ -1,29 +1,36 @@
 /*--- THE START OF CSS --*/
 /*--- Author: P15241882 - Muluken Sintayehu --*/
 
+/*--- STYLING OF WHOLE PAGE --*/
 html, body {
 	margin: 0;
 	padding: 0;
 	height:100%;
 	width: 100%;
 }
+
+/*--- STYLING THE CREW NAME, ON TOP OF THE CREW IMAGE --*/
 h1 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 	font-size: 300%;
 	font-weight: 700;
-	color: #FFF;
+	color: #15f4ed;
 	text-align: center;
 	padding: 2%;
 	text-shadow: 0px 0px 250px #000;
 }
+
+/*--- STYLING THE INTRO PARAGRAPH ON TOP OF CREW IMG ---*/
 p {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 	color: #2C2C2C;
 	font-size: 140%;
 	line-height: 180%;
 	text-align: justify;
 	font-weight: 300;
 }
+
+/*--- STYLING THE HOME SECTION, CREW IMAGE AND SETTING IT TO 100% W/H ---*/
 .home-section {
 	height: 100%;
 	width: 100%;
@@ -33,6 +40,58 @@ p {
 	display: table;
 	top: 0;
 }
+
+/*--- STYLING THE NAVIGATION, FLOATING TOP LEFT OF THE PAGE --*/
+/*--- THE NAVIGATION IS SUITABLE FOR MOBILE AND BIGGER SCREENS --*/
+nav {
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px;
+}
+nav ul {
+	list-style: none;
+	float: left;
+}
+nav ul li {
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-size: 120%;
+}
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*--- AA --*/
+nav ul li a:hover {
+  color: #15f4ed;
+	text-decoration: underline;
+}
+nav ul, nav:active ul {
+	display: none;
+	padding: 8px 0;
+	left: 45px;
+	top: 60px;
+	width: 20%;
+	z-index: 1000;
+}
+nav li {
+	width: 100%;
+	padding: 8px 0 10px 10px;
+	margin: 0;
+}
+nav:hover ul {
+	display: block;
+	position: absolute;
+}
+#menu-icon {
+	width: 50px;
+	height: 30px;
+	background: url(https://www.patsfans.com/2015/forum/images/menu_button.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+
+/*--- STYLING THE BIG TEXT ---*/
 .big-text {
 	max-width: 600px;
 	margin: auto;
@@ -40,19 +99,23 @@ p {
 	line-height: 1.6;
 	padding: 10px;
 }
+
+/*--- STYLING THE HOME AND TEXT TO DISPLAY AS TABLE-CELL ---*/
 .home-section .big-text {
 	display: table-cell;
 	vertical-align: middle;
 	width: 100%;
 	max-width: none;
 }
+
+/*--- STYLING THE CONTENT ---*/
 .content {
 	max-width: 600px;
 	margin: auto;
 }
 
+/*--- STYLING THE CONTENT PARAGRAPH ---*/
 .content p {
 	color: #FFF;
 }
-
 
