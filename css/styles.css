@@ -61,7 +61,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-/*--- AA --*/
+/*--- STYLING THE NAVIGATION LINKS --*/
 nav ul li a:hover {
   color: #15f4ed;
 	text-decoration: underline;
@@ -83,6 +83,8 @@ nav:hover ul {
 	display: block;
 	position: absolute;
 }
+
+/*--- STYLING THE MENU ICON, USED RANDOM GOOGLE IMG --*/
 #menu-icon {
 	width: 50px;
 	height: 30px;
@@ -119,3 +121,84 @@ nav:hover ul {
 	color: #FFF;
 }
 
+/*--- STYLING THE SHORTCUT BUTTON/LINK ---*/
+.toTop {
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  height: 40px;
+  font-size: 11pt;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-weight: bold;
+  position: fixed;
+  border-radius: 5px;
+  z-index: 10;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/*--- STYLING THE SHORTCUT BUTTON/LINK TEXT ---*/
+.toTop a {
+  display: inline-block;
+  width: 120px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  line-height: 40px;
+  box-sizing: border-box;
+}
+
+/*--- STYLING THE SHORTCUT BUTTON/LINK WHEN USER HOVERS OVER IT  ---*/
+.toTop a:hover, .toTop a:active {
+  background-color: transparent;
+  color: #15f4ed;
+}
+
+
+/*--- STYLING THE ABOUTUS TEXT AND CREW EMBLEM  ---*/
+.about-text {
+	width: 52%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+.crewemblem {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	#menu-icon {
+		margin: 26px 0 0 26px;
+	}
+	nav ul, nav:active ul {
+		padding: 8px 0;
+		left: 23px;
+		top: 34px;
+		width: 50%;
+	}
+	.big-text {
+		font-size: 120%;
+	}
+	.content h1 {
+		font-size: 180%;
+	}
+	p {
+		font-size: 120%;
+	}
+	h2 {
+		font-size: 160%;
+	}
+	.left-col {
+		width: 96%;
+		margin: 0 0 3% 0;
+		padding: 0 2%;
+	}
+	.sidebar {
+		width: 96%;
+		margin: 0 auto;
+	}
+}
