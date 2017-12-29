@@ -177,6 +177,7 @@ nav:hover ul {
 	margin: 4%;
 }
 
+/*--- STYLING THE CREW GALLERY PAGE  ---*/
 .gallery{
 	width:100%;
 	margin: auto;
@@ -203,7 +204,9 @@ nav:hover ul {
 .gallery img:hover {
 	opacity: .6;
 }
-  
+	
+
+/*--- BREAKDOWN POINTS FOR GALLERY  ---*/
   @media only screen and (min-width: 33.75em){
 	.gallery_images{
 	  flex-basis: calc(50% - 2rem);
@@ -220,9 +223,92 @@ nav:hover ul {
 	.gallery_images{
 	  flex-basis: calc((100% / 3) - 2rem);
 	}
-  }
+	}
+
+/*--- STYLING THE HIERARCHY PAGE  ---*/
+#section-b {
+  padding: 0 1em 1em;
+  text-align: center;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- STYLING THE CONTACTUS PAGE  ---*/
+			.contact p {
+				text-align: center;
+				letter-spacing: 5px;
+			}
+			.contact a {
+				color: #2C2C2C;
+				text-decoration: none;
+			}
+			.break {
+				display: none;
+			}
+			.clearfix {
+				clear: both;
+				height: 3%;
+			}
+			.social {
+				list-style-type: none;
+				text-align: center;
+			}
+			.social li {
+				display: inline;
+			}
+			.social i {
+				font-size: 270%;
+				margin: 1% 5% 7% 4%;
+				color: #2C2C2C;
+			}
+			.social i:hover {
+				color: #606060;
+			}
+			footer.second {
+				background-color: #2C2C2C;
+			}
+			footer.second p {
+				color: #FFF;
+				text-align: center;
+				padding: 5%;
+			}
+
+			
+			
+
+
+
+	
 
 
 
